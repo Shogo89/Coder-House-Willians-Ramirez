@@ -177,6 +177,7 @@ button {
 
 /* follow */
 .social {
+  display: flex;
   margin: 30px;
   display: block;
 }
@@ -186,7 +187,11 @@ button {
   align-items: center;
   justify-content: center;
 }
-
+.links h3 {
+  text-align: center;
+  font: 10px;
+  margin-bottom: 10px;
+}
 .links a {
   margin: 0 15px;
 }
@@ -216,14 +221,17 @@ button {
 }
 .fbuton button {
   background-color: #00d1ff;
-  font-size: 17px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.fbuton h4 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 .fbuton span {
   color: #00b8c3;
 }
-.fbuton h4 {
-  text-align: center;
-}
+
 .fbuton h5 {
   text-align: center;
   font-size: 14px;
@@ -235,15 +243,17 @@ button {
 }
 .fbuton3 h5 {
   font-size: 13px;
+  text-align: center;
 }
 .fbuton4 {
-  display: inline-block;
+  font: 13px;
   margin: 0 100px;
+  text-align: center;
 }
 .fbuton4 button {
   color: white;
   background-color: #6ad003;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Footer + grid */
@@ -315,15 +325,23 @@ button {
   .banner-one .content {
     width: 80%;
   }
-  .social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
+  .fbuton {
+    display: none;
   }
-  .social .links {
-    display: flex;
-    justify-content: center;
+  .fbuton h4 {
+    display: none;
+  }
+  .fbuton3 {
+    display: none;
+  }
+  .fbuton3 h4 {
+    display: none;
+  }
+  .fbuton4 {
+    display: none;
+  }
+  .fbuton4 h4 {
+    display: none;
   }
   .lowbar .h5low {
     width: 100%;
