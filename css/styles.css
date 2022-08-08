@@ -15,6 +15,8 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+/* BRAIN*/
 .topbar {
   background-color: #f38482;
   color: #ffff;
@@ -34,7 +36,7 @@ header {
 .searchbar button {
   font-size: 17px;
   border-color: #ff5858;
-  border-radius: 40px;
+  border-radius: 5px;
 }
 .btn {
   top: 15px;
@@ -266,7 +268,7 @@ button {
 
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   align-items: flex-start;
   justify-content: center;
@@ -347,6 +349,6 @@ button {
     width: 100%;
   }
   .footer-links .footer-container {
-    grid-template-columns: repeat(2, 1Fr);
+    grid-template-columns: repeat(3, 2Fr);
   }
 }
