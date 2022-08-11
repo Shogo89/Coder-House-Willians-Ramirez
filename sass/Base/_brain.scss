@@ -1,0 +1,52 @@
+/* BRAIN*/
+.topbar {
+  background-color: #f38482;
+  color: #ffff;
+  text-align: center;
+}
+.logobar {
+  padding: 10px;
+  text-align: center;
+}
+
+.searchbar {
+  background-color: #f94747;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.searchbar button {
+  font-size: 17px;
+  border-color: #ff5858;
+  border-radius: 5px;
+}
+.searchbar input {
+  margin-left: 1px;
+  margin-right: 30px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: #b93333;
+}
+.searchbar .right {
+  margin-left: 30px;
+  font-size: 30px;
+}
+.searchbar .center {
+  margin-left: 30px;
+  font-size: 30px;
+}
+.searchbar .registro {
+  margin-right: 30px;
+}
+.btn {
+  top: 15px;
+  right: 30px;
+  margin-left: 20;
+  z-index: 2;
+  display: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1320px;
+}

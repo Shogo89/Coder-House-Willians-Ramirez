@@ -1,0 +1,19 @@
+/*base  */
+@import "./Base/_resets.scss";
+@import "./Base/bodyheader";
+@import "./Base/brain";
+/* Abstract */
+@import "./Abstract/variable";
+/* imagenes */
+@import "./Base/img";
+
+/* components */
+@import "./components/menu";
+@import "./components/background";
+@import "./components/banner";
+@import "./components/lowbar";
+
+/* Layouts */
+@import "./layouts/follow";
+@import "./layouts/footer";
+@import "./layouts/queries";

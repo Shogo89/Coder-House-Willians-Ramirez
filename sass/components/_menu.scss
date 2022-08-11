@@ -1,0 +1,43 @@
+.menubar {
+  list-style: none;
+  padding: 0;
+  background-color: #b90000;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+button {
+  background-color: #b33431;
+  color: #ffff;
+}
+
+.menubar li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menubar li {
+  display: inline-block;
+  text-align: center;
+}
+.menubar li a:hover {
+  background: #ff0000;
+}
+.menubar li ul {
+  position: absolute;
+  min-width: 140px;
+  display: none;
+  vertical-align: top;
+}
+.menubar li ul {
+  list-style: none;
+  padding: 0;
+  background: #b90000;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+.menubar li:hover > ul {
+  display: block;
+}

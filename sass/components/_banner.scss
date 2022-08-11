@@ -1,0 +1,20 @@
+/* Banner Uno */
+.banner-one {
+  width: 100%;
+  height: 350px;
+  background: url("../image/banner.jpg") no-repeat center center/cover;
+  margin: 0 auto;
+  color: white;
+  max-width: 1320px;
+}
+.content {
+  text-align: center;
+}
+.content h2 {
+  font-size: 45px;
+  margin: 10px 0 20px 0;
+}
+.banner-one p {
+  font-size: 35px;
+  margin: 10px 0 20px 0;
+}

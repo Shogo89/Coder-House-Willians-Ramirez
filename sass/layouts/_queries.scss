@@ -1,0 +1,58 @@
+@media (max-width: 700px) {
+  .nav-main {
+    visibility: hidden;
+  }
+  .btn {
+    display: block;
+  }
+  .nav-main ul.menubar {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b90000;
+    height: 100%;
+    padding: 30px;
+    opacity: 0.7;
+    transform: translateX(-50px);
+    transition: transform 0.5 ease-in-out;
+  }
+  .nav-main ul.menubar.show {
+    transform: translateX(-20px);
+  }
+  .nav-main ul.menubar li {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .searchbar .right {
+    margin-right: 30px;
+  }
+
+  .banner-one .content {
+    width: 80%;
+  }
+  .fbuton {
+    display: none;
+  }
+  .fbuton h4 {
+    display: none;
+  }
+  .fbuton3 {
+    display: none;
+  }
+  .fbuton3 h4 {
+    display: none;
+  }
+  .fbuton4 {
+    display: none;
+  }
+  .fbuton4 h4 {
+    display: none;
+  }
+  .lowbar .h5low {
+    width: 100%;
+  }
+  .footer-links .footer-container {
+    grid-template-columns: repeat(3, 2Fr);
+  }
+}

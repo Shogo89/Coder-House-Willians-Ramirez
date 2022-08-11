@@ -1,0 +1,79 @@
+.social {
+  display: flex;
+  margin: 30px;
+  display: block;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links h3 {
+  text-align: center;
+  font: 10px;
+  margin-bottom: 10px;
+}
+.links a {
+  margin: 0 15px;
+}
+
+.links a i {
+  transition: 0.2s ease;
+}
+#facebook:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+}
+#youtube:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+}
+#instagram:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+}
+#tiktok:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+}
+.fbuton {
+  display: inline-block;
+  margin: 0 100px;
+}
+.fbuton button {
+  background-color: #00d1ff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.fbuton h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.fbuton span {
+  color: #00b8c3;
+}
+
+.fbuton h5 {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.fbuton3 h4 {
+  margin-bottom: 22px;
+  text-align: center;
+}
+.fbuton3 h5 {
+  font-size: 13px;
+  text-align: center;
+}
+.fbuton4 {
+  font: 13px;
+  margin: 0 100px;
+  text-align: center;
+}
+.fbuton4 button {
+  color: white;
+  background-color: #6ad003;
+  font-size: 20px;
+}

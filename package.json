@@ -1,0 +1,23 @@
+{
+  "name": "nippon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shogo89/Coder-House-Willians-Ramirez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shogo89/Coder-House-Willians-Ramirez/issues"
+  },
+  "homepage": "https://github.com/Shogo89/Coder-House-Willians-Ramirez#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
