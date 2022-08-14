@@ -1,3 +1,4 @@
+/*
 .menubar {
   background-color: #b90000;
   text-align: center;
@@ -6,17 +7,17 @@ button {
   background-color: #b33431;
   color: #ffff;
 }
-
+.menubar li {
+  display: inline-block;
+  text-align: center;
+}
 .menubar li a {
   text-decoration: none;
   color: white;
   padding: 20px;
   display: block;
 }
-.menubar li {
-  display: inline-block;
-  text-align: center;
-}
+
 .menubar li a:hover {
   background: #ff0000;
 }
@@ -31,9 +32,29 @@ button {
   padding: 0;
   background: #b90000;
   width: 90%;
-  max-width: 1000px;
+  max-width: 16660px;
   margin: auto;
 }
 .menubar li:hover > ul {
   display: block;
+}
+*/
+
+.menubar {
+  background-color: #b90000;
+  text-align: center;
+  li {
+    display: inline-block;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block;
+
+      &:hover {
+        background: #ff0000;
+      }
+    }
+  }
 }

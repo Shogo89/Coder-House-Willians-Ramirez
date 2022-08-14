@@ -12,11 +12,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px; }
 
+/* BRAIN */
 header {
   display: flex;
   flex-direction: column; }
 
-/* BRAIN*/
 .topbar {
   background-color: #f38482;
   color: #ffff;
@@ -61,6 +61,10 @@ header {
   margin-left: 20;
   z-index: 2;
   display: none; }
+
+button {
+  background-color: #b33431;
+  color: #ffff; }
 
 /* Abstract */
 /* Ventas e imagenes */
@@ -113,43 +117,60 @@ header {
   font-weight: 800; }
 
 /* components */
+/*
 .menubar {
   background-color: #b90000;
-  text-align: center; }
-
+  text-align: center;
+}
 button {
   background-color: #b33431;
-  color: #ffff; }
-
+  color: #ffff;
+}
+.menubar li {
+  display: inline-block;
+  text-align: center;
+}
 .menubar li a {
   text-decoration: none;
   color: white;
   padding: 20px;
-  display: block; }
-
-.menubar li {
-  display: inline-block;
-  text-align: center; }
+  display: block;
+}
 
 .menubar li a:hover {
-  background: #ff0000; }
-
+  background: #ff0000;
+}
 .menubar li ul {
   position: absolute;
   min-width: 140px;
   display: none;
-  vertical-align: top; }
-
+  vertical-align: top;
+}
 .menubar li ul {
   list-style: none;
   padding: 0;
   background: #b90000;
   width: 90%;
-  max-width: 1000px;
-  margin: auto; }
-
+  max-width: 16660px;
+  margin: auto;
+}
 .menubar li:hover > ul {
-  display: block; }
+  display: block;
+}
+*/
+.menubar {
+  background-color: #b90000;
+  text-align: center; }
+  .menubar li {
+    display: inline-block;
+    text-align: center; }
+    .menubar li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block; }
+      .menubar li a:hover {
+        background: #ff0000; }
 
 .Botonera {
   display: flex;

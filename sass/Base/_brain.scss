@@ -1,4 +1,8 @@
-/* BRAIN*/
+/* BRAIN */
+header {
+  display: flex;
+  flex-direction: column;
+}
 .topbar {
   background-color: #f38482;
   color: #ffff;
@@ -44,4 +48,9 @@
   margin-left: 20;
   z-index: 2;
   display: none;
+}
+
+button {
+  background-color: #b33431;
+  color: #ffff;
 }
