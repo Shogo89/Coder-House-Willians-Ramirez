@@ -1,3 +1,4 @@
+/*
 .social {
   display: flex;
   margin: 30px;
@@ -76,4 +77,87 @@
   color: white;
   background-color: #6ad003;
   font-size: 20px;
+}
+*/
+@mixin hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+}
+@mixin margin {
+  margin-bottom: 10px;
+}
+@mixin center {
+  text-align: center;
+}
+.social {
+  display: flex;
+  margin: 30px;
+  display: block;
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      @include center;
+      font: 10px;
+      margin-bottom: 10px;
+    }
+    a {
+      margin: 0 15px;
+      i {
+        transition: 0.2s ease;
+      }
+    }
+    #facebook:hover {
+      @include hover;
+    }
+    #youtube:hover {
+      @include hover;
+    }
+    #instagram:hover {
+      @include hover;
+    }
+    #tiktok:hover {
+      @include hover;
+    }
+  }
+  .fbuton {
+    display: inline-block;
+    margin: 0 100px;
+    button {
+      background-color: #00d1ff;
+      font-size: 16px;
+      @include margin;
+    }
+    h4 {
+      @include center;
+      @include margin;
+    }
+    span {
+      color: #00b8c3;
+    }
+    h5 {
+      @include margin;
+      @include center;
+      font-size: 14px;
+    }
+  }
+  .fbuton3 {
+    h4 {
+      margin-bottom: 22px;
+    }
+    h5 {
+      font-size: 13px;
+      @include center;
+    }
+  }
+  .fbuton4 {
+    font: 13px;
+    margin: 0 100px;
+    @include center;
+    button {
+      background-color: #6ad003;
+      font-size: 20px;
+    }
+  }
 }

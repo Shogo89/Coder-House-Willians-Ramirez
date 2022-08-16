@@ -276,81 +276,143 @@ button {
     width: 50%; }
 
 /* Layouts */
+/*
 .social {
   display: flex;
   margin: 30px;
-  display: block; }
+  display: block;
+}
 
 .links {
   display: flex;
   align-items: center;
-  justify-content: center; }
-
+  justify-content: center;
+}
 .links h3 {
   text-align: center;
   font: 10px;
-  margin-bottom: 10px; }
-
+  margin-bottom: 10px;
+}
 .links a {
-  margin: 0 15px; }
+  margin: 0 15px;
+}
 
 .links a i {
-  transition: 0.2s ease; }
-
+  transition: 0.2s ease;
+}
 #facebook:hover {
   cursor: pointer;
-  transform: translateY(-6px); }
-
+  transform: translateY(-6px);
+}
 #youtube:hover {
   cursor: pointer;
-  transform: translateY(-6px); }
-
+  transform: translateY(-6px);
+}
 #instagram:hover {
   cursor: pointer;
-  transform: translateY(-6px); }
-
+  transform: translateY(-6px);
+}
 #tiktok:hover {
   cursor: pointer;
-  transform: translateY(-6px); }
-
+  transform: translateY(-6px);
+}
 .fbuton {
   display: inline-block;
-  margin: 0 100px; }
-
+  margin: 0 100px;
+}
 .fbuton button {
   background-color: #00d1ff;
   font-size: 16px;
-  margin-bottom: 10px; }
-
+  margin-bottom: 10px;
+}
 .fbuton h4 {
   text-align: center;
-  margin-bottom: 10px; }
-
+  margin-bottom: 10px;
+}
 .fbuton span {
-  color: #00b8c3; }
+  color: #00b8c3;
+}
 
 .fbuton h5 {
   text-align: center;
   font-size: 14px;
-  margin-bottom: 10px; }
-
+  margin-bottom: 10px;
+}
 .fbuton3 h4 {
   margin-bottom: 22px;
-  text-align: center; }
-
+  text-align: center;
+}
 .fbuton3 h5 {
   font-size: 13px;
-  text-align: center; }
-
+  text-align: center;
+}
 .fbuton4 {
   font: 13px;
   margin: 0 100px;
-  text-align: center; }
-
+  text-align: center;
+}
 .fbuton4 button {
   color: white;
   background-color: #6ad003;
-  font-size: 20px; }
+  font-size: 20px;
+}
+*/
+.social {
+  display: flex;
+  margin: 30px;
+  display: block; }
+  .social .links {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .social .links h3 {
+      text-align: center;
+      font: 10px;
+      margin-bottom: 10px; }
+    .social .links a {
+      margin: 0 15px; }
+      .social .links a i {
+        transition: 0.2s ease; }
+    .social .links #facebook:hover {
+      cursor: pointer;
+      transform: translateY(-6px); }
+    .social .links #youtube:hover {
+      cursor: pointer;
+      transform: translateY(-6px); }
+    .social .links #instagram:hover {
+      cursor: pointer;
+      transform: translateY(-6px); }
+    .social .links #tiktok:hover {
+      cursor: pointer;
+      transform: translateY(-6px); }
+  .social .fbuton {
+    display: inline-block;
+    margin: 0 100px; }
+    .social .fbuton button {
+      background-color: #00d1ff;
+      font-size: 16px;
+      margin-bottom: 10px; }
+    .social .fbuton h4 {
+      text-align: center;
+      margin-bottom: 10px; }
+    .social .fbuton span {
+      color: #00b8c3; }
+    .social .fbuton h5 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 14px; }
+  .social .fbuton3 h4 {
+    margin-bottom: 22px; }
+  .social .fbuton3 h5 {
+    font-size: 13px;
+    text-align: center; }
+  .social .fbuton4 {
+    font: 13px;
+    margin: 0 100px;
+    text-align: center; }
+    .social .fbuton4 button {
+      background-color: #6ad003;
+      font-size: 20px; }
 
 .footer-links {
   background: #3a3a3a;
