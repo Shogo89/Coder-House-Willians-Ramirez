@@ -1,4 +1,7 @@
-/* Banner Uno */
+@mixin contenido {
+  color: white;
+  text-align: center;
+}
 .banner-height {
   background-image: url("../image/banner.jpg");
   background-position: center;
@@ -6,21 +9,20 @@
   background-size: cover;
   margin: auto;
   max-width: 1364px;
-}
-.banner-one {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 320px;
-}
-.content,
-.bienvenido {
-  color: white;
-  text-align: center;
-}
-.content h2 {
-  font-size: 45px;
-  margin: 10px 0 20px 0;
-}
-.banner-one p {
-  font-size: 35px;
-  margin: 10px 0 20px 0;
+  .banner-one {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 320px;
+    .content {
+      @include contenido;
+      h1 {
+        font-size: 45px;
+        @include contenido;
+        margin: 10px 0 20px 0;
+      }
+      p {
+        font-size: 35px;
+        margin: 10px 0 20px 0;
+      }
+    }
+  }
 }
