@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .nav-main {
     visibility: hidden;
   }
@@ -24,25 +24,53 @@
     padding: 20px;
     font-size: 14px;
   }
-  .searchbar .right {
-    margin-right: 30px;
+  .searchbar {
+    width: 100%;
+    background-color: #f94747;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    button {
+      font-size: 15px;
+    }
+    input {
+      margin: auto;
+      font-size: medium;
+    }
+    .registro {
+      margin: 0;
+      font-size: 15px;
+    }
+    .center,
+    .right {
+      display: none;
+    }
   }
 
   .banner-one .content {
     width: 80%;
   }
-  .fbuton,
-  .fbuton h4,
-  .fbuton3,
-  .fbuton3 h4,
-  .fbuton4,
-  .fbuton4 h4 {
-    display: none;
+  .social {
+    width: 100%;
+    .links {
+      .linksitos {
+        text-align: center;
+        font-size: 20px;
+      }
+      .fbuton,
+      .fbuton h4,
+      .fbuton3,
+      .fbuton3 h4,
+      .fbuton4,
+      .fbuton4 h4 {
+        display: none;
+      }
+    }
   }
   .lowbar .h5low {
     width: 100%;
   }
   .footer-links .footer-container {
-    grid-template-columns: repeat(3, 2Fr);
+    grid-template-columns: repeat(3, 1Fr);
   }
 }
