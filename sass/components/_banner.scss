@@ -2,6 +2,7 @@
   color: white;
   text-align: center;
 }
+
 .banner-height {
   background-image: url("../image/banner.jpg");
   background-position: center;
@@ -9,6 +10,8 @@
   background-size: cover;
   margin: auto;
   max-width: 1364px;
+  display: flex;
+  flex-direction: column;
   .banner-one {
     background-color: rgba(0, 0, 0, 0.5);
     height: 320px;
