@@ -58,41 +58,56 @@
         </ul>
       </nav>
     </div>
+
+    <!--Seccion de contacto-->
     <section>
-      <form action="">
-        <fieldset>
-          <legend>Contactanos para mejor asesoramiento</legend>
-          <label for="Nombre">Nombre</label>
-          <input type="text" name="Nombre" id="Nombre" />
-          <label for="Apellido">Apellido</label>
-          <input type="text" name="Apellido" id="Apellido" />
-          <label for="Mail">Mail</label>
-          <input type="text" name="Mail" id="Mail" />
-          <br /><br /><br />
-          <label for="Muñeco">Cuantos items quieres comprar?</label>
-          <select name="Muñeco" id="Muñeco">
-            <option value="Uno">1</option>
-            <option value="Dos">2</option>
-            <option value="Tres">3</option>
-            <option value="Cuatro">4</option>
-          </select>
-          <br /><br />
-          <label for="Telefono"
-            >Colocar número de telefono para que uno de nuestros asesores se
-            comunique con usted
-          </label>
-          <input type="text" name="Telefono" id="Telefono" />
-          <br /><br /><br />
-          <label for="Mensaje"
-            >Escribe con detalle que te gusto de nuestra pagina web</label
-          >
-          <br />
-          <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-          <br />
-          <input type="submit" value="enviar formulario" />
-          <input type="reset" value="limpiar formulario" />
-        </fieldset>
-      </form>
+      <div class="contactito">
+        <h2 class="logo">Contactanos</h2>
+
+        <div class="contact-wrapper animated bounceInUp">
+          <div class="contact-form">
+            <form action="">
+              <p>
+                <label>Nombre Completo</label>
+                <input type="text" name="fullname" />
+              </p>
+              <p>
+                <label>Email</label>
+                <input type="email" name="email" />
+              </p>
+              <p>
+                <label>Número de telefono</label>
+                <input type="tel" name="phone" />
+              </p>
+              <p>
+                <label>Asunto</label>
+                <input type="text" name="affair" />
+              </p>
+              <p class="block">
+                <label>Mensaje</label>
+                <textarea name="message" rows="3"></textarea>
+              </p>
+              <p class="block">
+                <button>Enviar</button>
+              </p>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h4>Más información</h4>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i>Av Montes de oca 169</li>
+              <li><i class="fas fa-phone"></i>11000000</li>
+
+              <li>
+                <i class="fas fa-envelope-open-text"></i
+                >williamsandres17@gmail.com
+              </li>
+            </ul>
+            <p>Contactanos y te responderemos a la brevedad</p>
+            <p>Nippon Store</p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Follow -->
     <section class="social">
