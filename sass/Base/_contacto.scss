@@ -140,22 +140,40 @@ ul {
       }
     }
     .contact-info {
-      background: #000;
+      background: #706f6f;
       color: white;
       h4 {
-        @include info;
+        margin: auto;
+        text-align: center;
       }
       ul {
         @include info;
         padding: 1em;
         li {
-          padding: 0.5em;
+          padding: 0.3em;
         }
       }
       p {
         @include info;
-        padding: 1em;
+        padding: 0.2em;
       }
     }
+  }
+}
+@media (min-width: 700px) {
+  body {
+    padding: 0 4em;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
   }
 }
