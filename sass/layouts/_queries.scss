@@ -2,9 +2,7 @@
   .nav-main {
     visibility: hidden;
   }
-  .btn {
-    display: block;
-  }
+
   .nav-main ul.menubar {
     display: block;
     position: absolute;
@@ -24,17 +22,19 @@
     padding: 20px;
     font-size: 14px;
   }
+
   .searchbar {
     width: 100%;
     background-color: #f94747;
-    padding: 0;
+    padding: auto;
     display: flex;
     justify-content: center;
     button {
       font-size: 15px;
+      margin: 0;
     }
     input {
-      margin: auto;
+      margin: 0;
       font-size: medium;
     }
     .registro {
@@ -45,10 +45,22 @@
     .right {
       display: none;
     }
+    .btn {
+      display: block;
+    }
   }
 
   .banner-one .content {
     width: 80%;
+  }
+  .figuras {
+    display: grid;
+    h1 {
+      font-size: 20px;
+    }
+    .ventas {
+      grid-template-columns: repeat(2, 2Fr);
+    }
   }
   .social {
     width: 100%;

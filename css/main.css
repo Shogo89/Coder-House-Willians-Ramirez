@@ -372,8 +372,6 @@ header {
 @media screen and (max-width: 700px) {
   .nav-main {
     visibility: hidden; }
-  .btn {
-    display: block; }
   .nav-main ul.menubar {
     display: block;
     position: absolute;
@@ -393,13 +391,14 @@ header {
   .searchbar {
     width: 100%;
     background-color: #f94747;
-    padding: 0;
+    padding: auto;
     display: flex;
     justify-content: center; }
     .searchbar button {
-      font-size: 15px; }
+      font-size: 15px;
+      margin: 0; }
     .searchbar input {
-      margin: auto;
+      margin: 0;
       font-size: medium; }
     .searchbar .registro {
       margin: 0;
@@ -407,8 +406,16 @@ header {
     .searchbar .center,
     .searchbar .right {
       display: none; }
+    .searchbar .btn {
+      display: block; }
   .banner-one .content {
     width: 80%; }
+  .figuras {
+    display: grid; }
+    .figuras h1 {
+      font-size: 20px; }
+    .figuras .ventas {
+      grid-template-columns: repeat(2, 2Fr); }
   .social {
     width: 100%; }
     .social .links .linksitos {
